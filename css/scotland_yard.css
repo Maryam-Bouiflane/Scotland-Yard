@@ -1,0 +1,82 @@
+html {
+  height: 100%;
+}
+
+body {
+	min-height: 100%;
+	padding: 0;
+	position: relative;
+}
+
+#header {
+	border-bottom: 1px solid #b2b2b2;
+	height: 130px;
+}
+
+
+#logo{
+	width: 200px;
+	height: 100px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	margin-left: 50px;
+	margin-right: 20px;
+	display: block;
+}
+
+#header img {
+  float: left;
+}
+
+#header h2 {
+  position: relative;
+  top: 25px;
+}
+
+#nav{
+	border-bottom: 1px solid #b2b2b2;
+	height: 40px;
+    width: 100%;
+    background: #455868;
+    font-size: 11pt;
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-weight: bold;
+    position: relative;
+}
+
+#footer {
+	position: absolute;
+	right: 0;
+    left: 0;
+	border-top: 1px solid #b2b2b2;
+}
+
+#footer.container-fluid {
+    padding-left: 0px;
+}
+
+#ucbl, #bdw1{
+	box-sizing: border-box;
+	display: list-item;
+    text-align: -webkit-match-parent;
+	padding-right: 0.5rem;
+    padding-left: 0.5rem;
+	border-right: 1px solid #b2b2b2;
+}
+
+#createJoueuse{
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#myTable{
+	box-sizing: content-box;
+}
+
+#myTable_wrapper{
+	width:70%;
+	margin-left:15%;
+	margin-right:15%;
+
+}
